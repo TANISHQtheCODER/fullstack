@@ -1,4 +1,3 @@
-// Task 1: Create Student
 function createStudent() {
     return new Promise((resolve, reject) => {
         const student = {
@@ -11,7 +10,6 @@ function createStudent() {
     });
 }
 
-// Task 2: Add Marks
 function addMarks(student) {
     return new Promise((resolve, reject) => {
 
@@ -23,7 +21,6 @@ function addMarks(student) {
     });
 }
 
-// Task 3: Calculate Grade
 function calculateGrade(student) {
     return new Promise((resolve, reject) => {
 
@@ -39,7 +36,6 @@ function calculateGrade(student) {
     });
 }
 
-// Promise Chaining
 createStudent()
     .then(addMarks)
     .then(calculateGrade)
