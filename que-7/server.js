@@ -4,7 +4,6 @@ const app = express();
 
 const PORT = 3000;
 
-// Route to fetch Google page
 app.get("/google", async (req, res) => {
 
     try {
@@ -23,7 +22,6 @@ app.get("/google", async (req, res) => {
 
 });
 
-// Start server
 app.listen(PORT, () => {
 
     console.log(`Server is running at http://localhost:${PORT}`);
