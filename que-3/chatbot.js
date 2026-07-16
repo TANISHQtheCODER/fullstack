@@ -1,4 +1,3 @@
-// Chatbot module
 
 function getResponse(question) {
 
