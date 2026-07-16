@@ -4,7 +4,6 @@ const app = express();
 
 const PORT = 3000;
 
-// Serve static resources from the "public" folder
 app.use(express.static("public"));
 
 app.listen(PORT, () => {
