@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vue CDN Components</title>
+</head>
+
+<body>
+
+    <div id="app">
+
+        
+        <header-component></header-component>
+
+        
+        <student-component></student-component>
+
+    </div>
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+    <script>
+
+        const app = Vue.createApp({});
+
+        app.component('header-component', {
+
+            template: `
+                <div>
+                    <h1>Student Management System</h1>
+                    <hr>
+                </div>
+            `
+
+        });
+
+        app.component('student-component', {
+
+            data() {
+
+                return {
+                    name: 'Tanishq',
+                    course: 'B.Sc IT',
+                    semester: 7
+                };
+
+            },
+
+            template: `
+                <div>
+
+                    <h2>Student Details</h2>
+
+                    <p>
+                        <b>Name:</b> {{ name }}
+                    </p>
+
+                    <p>
+                        <b>Course:</b> {{ course }}
+                    </p>
+
+                    <p>
+                        <b>Semester:</b> {{ semester }}
+                    </p>
+
+                </div>
+            `
+
+        });
+
+        app.mount('#app');
+
+    </script>
+
+</body>
+
+</html>

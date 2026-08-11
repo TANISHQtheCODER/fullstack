@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Tanishq Ghodadra",
+        "department": "IT",
+        "salary": 35000
+    },
+    {
+        "id": 2,
+        "name": "Rahul Patel",
+        "department": "HR",
+        "salary": 30000
+    },
+    {
+        "id": 3,
+        "name": "Priya Shah",
+        "department": "Finance",
+        "salary": 40000
+    },
+    {
+        "id": 4,
+        "name": "Amit Mehta",
+        "department": "IT",
+        "salary": 38000
+    }
+]
