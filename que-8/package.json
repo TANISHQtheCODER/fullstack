@@ -1,0 +1,18 @@
+{
+  "name": "que-8",
+  "version": "1.0.0",
+  "description": "Package.json Scripts Example",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Test Script Executed\"",
+    "hello": "echo Hello NodeJS",
+    "startapp": "echo Starting Application",
+    "developer": "echo Developed by Tanishq"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
